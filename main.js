@@ -26,7 +26,6 @@ const view = {
   getCardContent(index){
     const number = this.transformNumber((index % 13) + 1)
     const symbol = symbols[Math.floor(index / 13)]
-    // console.log(number,'轉換數字&數字', Math.floor(index / 13), '花色位置')
     return `
     <p>${number}</p>
     <img src="${symbol}" alt="黑桃">
@@ -60,7 +59,6 @@ const view = {
   
   // 翻牌
   flipCards(...card){
-    console.log('flip', card)
     card.map(card => {
       // 回傳正面
       if (card.classList.contains("back")){ 
@@ -117,7 +115,6 @@ const model = {
   revealedCards: [],
   // 卡片是否相同
   isRevealedCardsMatched(){
-    console.log("isRevealedCardsMatched", this.revealedCards[1])
     return this.revealedCards[0].dataset.index % 13 === this.revealedCards[1].dataset.index % 13
   },
 
