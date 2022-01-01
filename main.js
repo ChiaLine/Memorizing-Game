@@ -9,10 +9,10 @@ const GSME_STATE = {
 
 // 卡片花色
 const symbols = [
-  'https://image.flaticon.com/icons/svg/105/105223.svg', // 黑桃 0-12
-  'https://image.flaticon.com/icons/svg/105/105220.svg', // 愛心 13-25
-  'https://image.flaticon.com/icons/svg/105/105212.svg', // 方塊 26-38
-  'https://image.flaticon.com/icons/svg/105/105219.svg' // 梅花 39-51
+  'https://assets-lighthouse.alphacamp.co/uploads/image/file/17988/__.png', // 黑桃
+  'https://assets-lighthouse.alphacamp.co/uploads/image/file/17992/heart.png', // 愛心
+  'https://assets-lighthouse.alphacamp.co/uploads/image/file/17991/diamonds.png', // 方塊
+  'https://assets-lighthouse.alphacamp.co/uploads/image/file/17988/__.png' // 梅花
 ]
 
 // 和介面有關
